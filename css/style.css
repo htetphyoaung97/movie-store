@@ -1,0 +1,146 @@
+/*================Nav============*/
+
+.menu a {
+	transition: .5s;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	color: #e0b32c !important;
+}
+
+.menu a:focus {
+	color: #e0b32c !important;
+}
+
+.input-search:focus {
+	border-color: #e0b32c !important;
+	box-shadow: 0 0 0 0.2rem rgba(219, 166, 32,.25) !important;
+}
+
+/*=================Movie list===========*/
+.bg-color {
+	background: #000;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 600px;
+	opacity: .5;
+
+}
+
+.bg-image {
+	background-image: url("../images/movie3.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+/*=======footer=====================*/
+.footer-bg {
+	background: #000;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 600px;
+	opacity: .7;
+}
+
+.footer-cover {
+	background-image: url('../images/movie2.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+
+.link-icon svg {
+	transition: .5s;
+	font-size: 45px;
+	cursor: pointer;
+
+}
+
+.link-icon svg:hover {
+	color: #e0b32c !important; 
+}
+
+.recent-vd a {
+	transition: .5s;
+}
+.recent-vd a:hover {
+	text-decoration: none;
+	color: #e0b32c !important;  
+}
+
+.top-bottom {
+	position: fixed;
+	z-index: 9999999;
+	right: 0;
+	bottom: 50px;
+	cursor: pointer;
+	font-size: 35px;
+	display: none;
+}
+
+/*=================top rate===============*/
+.m-name {
+	cursor: pointer;
+	transition: .5s;
+}
+.m-name a {
+	text-decoration: none;
+	color: #000;
+}
+
+.m-name a:hover {
+	color: #e0b32c !important;
+	text-decoration: none;
+}
+/*========minnion=======*/
+.movie-info ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.cmt-room:focus {
+	border-color: #e0b32c !important;
+	box-shadow: 0 0 0 0.2rem rgba(219, 166, 32,.25) !important;
+}
+
+.all-input:focus {
+	border-color: #e0b32c !important;
+	box-shadow: 0 0 0 0.2rem rgba(219, 166, 32,.25) !important;
+}
+
+/*=======trailer movie slider======*/
+
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 057 css*/
+.jssorb057 .i {position:absolute;cursor:pointer;}
+.jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
+.jssorb057 .i:hover .b {stroke-opacity:.7;}
+.jssorb057 .iav .b {stroke-opacity: 1;}
+.jssorb057 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 073 css*/
+.jssora073 {display:block;position:absolute;cursor:pointer;}
+.jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+.jssora073:hover {opacity:.8;}
+.jssora073.jssora073dn {opacity:.4;}
+.jssora073.jssora073ds {opacity:.3;pointer-events:none;}
